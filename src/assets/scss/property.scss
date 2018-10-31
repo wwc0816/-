@@ -1,0 +1,38 @@
+.propertyDiv {
+    .propertytitle {
+      background: #212336;
+      height: 60px;
+      line-height: 60px;
+      padding-left: 20px;
+      margin-top: 20px;
+    }
+    .propertymain {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      .propertymainleft {
+        width: 231px;
+        height: 300px;
+        background: #191b2a;
+        ul {
+          padding: 10px;
+          li {
+            line-height: 60px;
+            padding: 0 10px;
+            cursor: pointer;
+          }
+          li.active {
+            color: #3a82fa;
+            background: #212336;
+          }
+        }
+      }
+      .propertymainright {
+        width: 960px;
+        background: #191b2a;
+      }
+    }
+  }

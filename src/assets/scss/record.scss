@@ -1,0 +1,88 @@
+$colorgray: #525a7b;
+$colorbule: #3a82fa;
+$colorred: #ae4e54;
+$bgcolor: #212336;
+$bgcolor2: #191b2a;
+.recordDiv {
+  padding-bottom: 50px;
+
+  .record_head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    padding: 0 21px;
+    background: $bgcolor;
+    margin: 16px 0;
+    font-size: 18px;
+    span {
+      color: $colorbule;
+      padding-right: 10px;
+    }
+  }
+  .record_box {
+    background: $bgcolor2;
+    padding-bottom: 70px;
+    .record_tabs {
+      display: flex;
+      height: 60px;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 18px;
+      padding: 0 24px 0 14px;
+      background: $bgcolor;
+      span {
+        cursor: pointer;
+        margin-right: 44px;
+      }
+      span.active {
+        color: $colorbule;
+      }
+    }
+    .record_lists {
+      padding-left: 14px;
+      padding-right: 24px;
+      font-size: 14px;
+      .record_lists_head {
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 24px;
+        color: $colorgray;
+        justify-content: flex-start;
+        span:nth-child(1) {
+          width: 200px;
+        }
+        span:nth-child(2),
+        span:nth-child(3) {
+          width: 250px;
+          text-align: center;
+        }
+        span:nth-child(4) {
+          flex: 1;
+          text-align: right;
+        }
+      }
+      ul {
+        li {
+          border-bottom: 1px solid #2c3753;
+          display: flex;
+          justify-content: flex-start;
+          padding: 20px 0;
+          span:nth-child(1) {
+            width: 200px;
+          }
+          span:nth-child(2),
+          span:nth-child(3),
+          span:nth-child(4) {
+            width: 250px;
+            text-align: center;
+          }
+          span:nth-child(5) {
+            flex: 1;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}

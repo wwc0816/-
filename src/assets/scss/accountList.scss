@@ -1,0 +1,77 @@
+$colorgray: #525a7b;
+$colorbule: #3a82fa;
+.account_top {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  background: #212336;
+  padding: 0 22px;
+  section:nth-child(2){
+    display: flex;
+    align-items: center;
+}
+  .aoumnt {
+    font-size: 14px;
+  }
+  span{
+      padding-right: 16px;
+  }
+  section {
+    a {
+      font-size: 14px;
+      color: $colorbule;
+      padding-left: 32px;
+    }
+  }
+}
+.account_list{
+    padding: 22px;
+    .list_head{
+        display: flex;
+        padding-top: 15px;
+        justify-content: flex-start;
+        color: $colorgray;
+        span{
+            text-align: right;
+            font-size: 12px;
+            color: $colorgray;
+        }
+        span:nth-child(1){
+            width: 50px;
+            text-align: left;
+        }
+        span:nth-child(2),span:nth-child(3),span:nth-child(4){
+            width: 200px;
+        }
+        span:nth-child(5){
+            flex: 1;
+        }
+    }
+    .list_li{
+        display: flex;
+        padding: 20px 0;
+        justify-content: flex-start;
+        border-bottom: 1px solid #2c3753;
+        span:nth-child(2),span:nth-child(3),span:nth-child(4){
+            text-align: right;
+            width: 200px;
+        }
+        // span:nth-child(5){
+        //     width: 200px;
+        //     padding-left: 20px;
+        //     color: $colorgray;
+        // }
+        span:nth-child(1){
+            width: 50px;            
+        }
+        span:nth-child(5){
+            flex: 1;
+            text-align: right;
+            a{
+                padding-left: 23px;
+                color: $colorbule;
+            }
+        }
+    }
+}

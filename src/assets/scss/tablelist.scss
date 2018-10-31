@@ -1,0 +1,26 @@
+.tableLists{
+    padding-bottom: 18px;
+    .tableHead{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #212336;
+        height: 65px;
+        padding: 0 18px 0 22px;
+    }
+    ul.list{
+        background: #191b2a;
+        min-height: 782px;
+        height: auto;
+        li{
+            .listItem{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 90px;
+                border-bottom: 1px solid #3e4a74;
+                margin: 0 13px 0 22px;
+            }
+        }
+    }
+}

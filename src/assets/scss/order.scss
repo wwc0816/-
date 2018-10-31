@@ -1,0 +1,47 @@
+$colorgray: #525a7b;
+$colorbule: #3a82fa;
+$colorred: #ae4e54;
+$bgcolor: #212336;
+$bgcolor2: #191b2a;
+.orderDiv {
+    width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+    .ordertitle {
+      font-size: 18px;
+      height: 65px;
+      padding-left: 12px;
+      line-height: 65px;
+      background: #212336;
+    }
+.orderTableLists{
+    padding-bottom: 18px;
+    .tableHead{
+        display: flex;
+        justify-content: space-between;
+        padding: 32px 12px 24px 12px;
+        font-size: 14px;
+        color: $colorgray;
+        background: $bgcolor2;
+    }
+    ul.list{
+        background: $bgcolor2;
+        min-height: 782px;
+        height: auto;
+        li{
+            .listItem{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 52px;
+                border-bottom: 1px solid #3e4a74;
+                margin: 0 12px;
+                font-size: 12px;
+                a{
+                    color: $colorbule;
+                }
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,19 @@
+$bgcolor: #191b2a;
+.staticDiv{
+    padding-bottom: 30px; 
+    p{
+        line-height: 25px;
+        padding: 10px 20px;
+    }
+    .static_title{
+        padding: 0 0 0 20px;
+        line-height: 60px;
+        margin: 30px 0;
+        background: $bgcolor;
+        font-size: 20px;
+    }
+    .p_title{
+        font-size: 18px;
+        padding: 20px;
+    }
+}

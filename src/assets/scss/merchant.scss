@@ -1,0 +1,18 @@
+  .merchant_title {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-start;
+    background: #212336;
+    padding: 0 22px;
+    font-size: 18px;
+  }
+  .tabsable{
+    span{
+        margin-right: 30px;
+        cursor: pointer; 
+    }
+    span.active{
+        color: #3a82fa;
+    }
+  }

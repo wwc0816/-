@@ -1,0 +1,159 @@
+.wrapDiv{
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    padding-top: 64px;
+}
+.home{
+    background: -webkit-linear-gradient(#103278, #101332);
+    background: -o-linear-gradient(#103278, #101332);
+    background: -moz-linear-gradient(#103278, #101332);
+    background: linear-gradient(#103278, #101332);
+}
+.mapbg{
+    width:1200px;
+    margin: auto;
+    background-image: url(../images/indexBg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 67px;
+}
+.commonDiv{
+    width:1200px;
+    margin: auto;
+}
+.loginBox，.whitebg{
+    background: #ffffff;
+}
+.business{
+    background: #30344e;
+}
+.cccbg{
+    background: #f7f8fa;
+}
+.headericon {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    background: #f88527;
+  }
+.payicon,.statusicon{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-position: center;
+    background-size: cover;
+}
+.payicon-wechat{
+    background-image: url(../images/wechat.png);
+}
+.payicon-alipay{
+    background-image: url(../images/alipay.png);
+}
+.payicon-card{
+    background-image: url(../images/card.png);
+}
+i.agreeicon{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(../images/priorityed.png);  
+}
+i.agreeicon.agree{
+    background-image: url(../images/priority.png);  
+}
+.statusicon{
+    width: 18px;
+    height: 18px;
+}
+.statusicon-cancel{
+    background-image: url(../images/cancel.png);  
+}
+.statusicon-waiting{
+    background-image: url(../images/waiting.png);
+}
+.statusicon-payed{
+    background-image: url(../images/payed.png);  
+}
+.statusicon-finshed{
+    background-image: url(../images/finshed.png);
+}
+.statusicon-doing{
+    background-image: url(../images/doing.png);  
+}
+i.infoIcon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+i.iconStatus{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: cover;
+}
+i.arrow{
+    display: inline-block;
+    width: 9px;
+    height: 5px;
+    background-size: cover;
+}
+i.iconboult{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.infoIcon-email{
+    background-image: url(../images/iconemail.png);
+}
+.infoIcon-phone{
+    background-image: url(../images/iconphone.png);
+}
+.infoIcon-card{
+    background-image: url(../images/iconcard.png);
+}
+.infoIcon-check{
+    background-image: url(../images/iconcheck.png);
+}
+.infoIcon-pass{
+    background-image: url(../images/iconpass.png);
+}
+.infoIcon-google{
+    background-image: url(../images/icongoogle.png);
+}
+.icon_priority{
+    background-image: url(../images/icon_priority.png);
+}
+.icon_unpriority{
+    background-image: url(../images/cancel.png);
+}
+.icon_ic_arrow_drop_down_white{
+    background-image: url(../images/ic_arrow_drop_down_white.png);
+}
+.icon_ic_arrow_drop_up_white{
+    background-image: url(../images/ic_arrow_drop_up_white.png);
+}
+.icon_unfold{
+    background-image: url(../images/unfold.png);
+}
+.icon_packup{
+    background-image: url(../images/packup.png);
+}
+.colorgray{
+    color: #525a7b;
+}
+.colorbule{
+    color: #3a82fa;
+}
+.colorred{
+    color: #ae4a54;
+}
+.colorgreen{
+    color: #589065;
+}

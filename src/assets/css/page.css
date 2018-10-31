@@ -1,0 +1,30 @@
+.pageBox.blackpage{        
+    background: #191b2a;
+    padding: 32px 0;
+}
+.pageBox.blackpage .pages{
+    text-align: center;
+}
+.blackpage .ivu-page-next,.blackpage .ivu-page-prev{
+    background: #4b4b4b;
+}
+.blackpage .ivu-page-item-jump-next,.blackpage .ivu-page-item-jump-prev,.blackpage .ivu-page-next,.blackpage .ivu-page-prev{
+    border-radius: 2px;
+    border: 1px solid #4b4b4b;
+    background: #4b4b4b;
+}
+.blackpage .ivu-page-item{
+    border-radius: 2px;
+    border: 1px solid #4b4b4b;
+    background: #4b4b4b;
+}
+.blackpage .ivu-page-item a{
+    color: #fff;
+}
+.blackpage .ivu-page-item-active{
+    border: 1px solid #3a82fe;
+    background: #3a82fe;
+}
+.blackpage .ivu-page-next a,.blackpage .ivu-page-prev a{
+    color: #fff;
+}

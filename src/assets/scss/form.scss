@@ -1,0 +1,47 @@
+.loginBox {
+    padding-top: 128px;
+    padding-bottom: 100px;
+.formBox {
+    width: 408px;
+    margin: auto;
+    font-size: 14px;
+    color: #999999;
+    .formtitle {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 24px;
+      color: #010101;
+      img {
+        padding-right: 16px;
+      }
+    }
+    p{
+      padding: 25px 0 43px 0;
+    }
+    a{
+        color: #3a82fe;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 26px;
+        span{
+            padding-left: 33px;
+        }
+        a{
+            padding-left: 17px;
+        }
+    }
+    section.type2{
+        padding-top: 0;
+        span{
+            padding-left: 15px;
+            color: #010101;
+        }
+    }
+  }
+}

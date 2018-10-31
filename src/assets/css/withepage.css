@@ -1,0 +1,29 @@
+.withePageBox{        
+    padding: 32px 0;
+}
+.withePageBox .pages{
+    text-align: center;
+}
+/* .ivu-page-next, .ivu-page-prev{
+    background: #4b4b4b;
+}
+.ivu-page-item-jump-next, .ivu-page-item-jump-prev, .ivu-page-next, .ivu-page-prev{
+    border-radius: 2px;
+    border: 1px solid #4b4b4b;
+    background: #4b4b4b;
+}
+.ivu-page-item{
+    border-radius: 2px;
+    border: 1px solid #4b4b4b;
+    background: #4b4b4b;
+}
+.ivu-page-item a{
+    color: #fff;
+}
+.ivu-page-item-active{
+    border: 1px solid #3a82fe;
+    background: #3a82fe;
+}
+.ivu-page-next a, .ivu-page-prev a{
+    color: #fff;
+} */

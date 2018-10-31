@@ -1,0 +1,30 @@
+body .ivu-modal-body{
+    padding: 34px;
+}
+body .ivu-modal-body .ivu-form-item .ivu-form-item-label{
+    color: #999999;
+    font-size: 14px;
+}
+body .ivu-modal-body .ivu-upload-drag{
+    border: 1px dashed #ccc;
+    color: #000000;
+}
+body .ivu-modal-footer{
+    padding: 27px 34px;
+    border-top: none;
+}
+body .confirmTitle{
+    font-size: 18px;
+    color: #000000;
+    padding-top: 20px;
+    height: 100px;
+}
+body .confirmTitle span{
+    display: block;
+    font-size: 14px;
+}
+body .ivu-modal-footer .ivu-btn{
+    width: 132px;
+    height: 43px;
+    font-size: 18px;
+}
