@@ -123,10 +123,10 @@
                             <span>价格({{currencyname}})</span>
                             <span>数量({{Base}})</span>
                           </div>
-                          <div class="exlist_li" v-for="(item , index) in handicapdata.sell" :key="index">
-                            <span class="colorred">卖{{index+1}}</span>
+                          <div class="exlist_li" v-for="(item , index) in handicapdata.sell " :key="index">
+                            <span class="colorred">卖{{handicapdata.sell.length-index}}</span>
                             <span>{{item.FriendlyPrice}}</span>
-                            <span>{{item.FriendlyAmount}}</span>
+                            <span>{{item.FriendlyAmount  }}</span>
                           </div>
                           <div class="coins_line"></div>
                           <div class="exlist_li" v-for="(item , index) in handicapdata.buy" :key="item.FriendlyPrice">
@@ -404,8 +404,10 @@ export default {
         .then(res => {
           if (res.data.status == 1) {
             this.handicapdata.buy = res.data.data.Buying;
-            this.handicapdata.sell = res.data.data.Selling;
-            this.handicapdata.cnyprice = res.data.data.CurrentTranCnyPrice;
+             /* this.handicapdata.buy.reverse((a,b)=>a.res.data.data.Buying-b.res.data.data.Buying)*/
+              this.handicapdata.sell = res.data.data.Selling;
+              this.handicapdata.sell.reverse((a,b)=>a.res.data.data.Selling-b.res.data.data.Selling)
+              this.handicapdata.cnyprice = res.data.data.CurrentTranCnyPrice;
             this.handicapdata.price = res.data.data.CurrentTranPrice;
           } else {
             this.$Message.error(res.data.message);
