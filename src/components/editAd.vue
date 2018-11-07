@@ -96,11 +96,11 @@ export default {
       tradetypes: [
         {
           value: 1,
-          label: "购买"
+          label: "我要买"
         },
         {
           value: 2,
-          label: "卖出"
+          label: "我要卖"
         }
       ],
       currencys: [

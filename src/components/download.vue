@@ -3,6 +3,7 @@
         <div class="downloadDiv mapbg">
             <p class="slogon slogonb">无障碍登录，就用CoinsUp App</p>
             <p class="slogon slogons">覆盖IOS、Android平台，支持全业务功能</p>
+            <p class="slogon slogoni"><a href=""><img src="../assets/images/手机端下载.png" alt=""></a></p>
             <div class="appshow">
                 <img src="../assets/images/appshow1.png" alt="">
                 <img src="../assets/images/appshow2.png" alt="">
@@ -91,6 +92,11 @@ export default {
     .slogons{
         font-size: 24px;
         padding-bottom: 83px;
+    }
+    .slogoni{
+        font-size: 24px;
+        padding-bottom: 50px;
+
     }
     .appshow{
         display: flex;

@@ -159,6 +159,8 @@ export default {
     },
     test(val) {
       this.withdrawData.amount = this.$common.clearNoNum(val);
+        console.log(this.withdrawData.amount);
+
     },
     pageTo(path) {
       this.$router.push({ name: path });

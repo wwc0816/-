@@ -30,6 +30,6 @@ export default {
 </style>
 <style>
 .exchangewrapper{
-  min-width: 1880px;
+  min-width: 100%;
 }
 </style>

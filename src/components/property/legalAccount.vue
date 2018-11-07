@@ -3,11 +3,11 @@
         <div class="account_top">
             <section>
                 <span>总资产折合</span>
-                <span>{{total.totalHKT.toFixed(8)}} {{$store.state.name.currencyname}}</span>
-                <span class="aoumnt colorgray">≈{{total.totalCNY.toFixed(2)}} CNY</span>
+                <span>{{total.currency}} {{$store.state.name.currencyAcount}}</span>
+                <span class="aoumnt colorgray">≈{{total.cny}} CNY</span>
             </section>
             <section>
-                <img src="../../assets/images/baozhengjin.png" alt="" style="padding-right:10px;"> 保障金 {{$store.state.userstatus.isPayMargin == 1?'100.00000000':'0.00000000'}} {{$store.state.name.currencyname}}
+                <img src="../../assets/images/baozhengjin.png" alt="" style="padding-right:10px;"> 保障金 {{$store.state.status.isPayMargin == 1?'100.00000000':'0.00000000'}} {{$store.state.name.currencyname}}
                 <a @click="pageTo('propertyDetail')">资产明细</a>
                 <a @click="$store.state.status.addAddressModal = true">提币地址管理</a>
             </section>
@@ -43,8 +43,8 @@ export default {
         totalHKT: 0,
         totalCNY: 0
       },
-      getWeBankListapi: this.$common.path + "/webank/getWeBankList",
-      getAssetTotalapi: this.$common.path + "/webank/getAssetTotal",
+      getWeBankListapi: this.$common.coinspath + "/v1/user/money/otc",/*法币账户的 UST 系列的接口*//*/webank/getWeBankList*/
+      getAssetTotalapi: this.$common.coinspath + "/v1/user/money/otc_total",
       weBankList: [],
     };
   },
@@ -66,7 +66,8 @@ export default {
         .then(res => {
           if (res.data.status == 1) {
             this.weBankList = res.data.data;
-          } else {
+            console.log(this.weBankList);
+        } else {
             this.$Message.error(res.data.message);
           }
         });
@@ -80,7 +81,8 @@ export default {
         })
         .then(res => {
           if (res.data.status == 1) {
-            this.total = res.data.data;
+              console.log(res);
+              this.total = res.data.data;
           } else {
             this.$Message.error(res.data.message);
           }

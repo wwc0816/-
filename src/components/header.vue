@@ -146,6 +146,11 @@ export default {
       }
 
     }
+    a:hover{
+    color:red;
+
+   }
+
 
   }
 
@@ -176,6 +181,10 @@ export default {
       display: inline-block;
     }
   }
+a:hover{
+    color:red;
+
+}
 }
 </style>
 

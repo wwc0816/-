@@ -1,4 +1,4 @@
-import md5 from 'js-md5';
+  import md5 from 'js-md5';
 
 export default {
     // path:'http://192.144.188.161',
@@ -51,6 +51,7 @@ export default {
         newObj['sign'] = val.toUpperCase();
         return newObj;
     },
+    /*取用户信息的*/
     getCookie(name) {
         var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
         if (arr = document.cookie.match(reg)) {
@@ -59,6 +60,7 @@ export default {
             return null;
         }
     },
+    /*存用户信息的*/
     setCookie(name, value) {
         var exp = new Date();
         exp.setTime(exp.getTime() + 30 * 24 * 60 * 60 * 1000);

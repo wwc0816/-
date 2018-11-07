@@ -3,7 +3,7 @@
         <div class="businessList">
             <div class="tabs">
                 <div class="buy">
-                    <p>购买</p>
+                    <p>我要买</p>
                     <section>
                         <span :class="{active:typedata.type==1&&typedata.currency==$store.state.name.currencyname}" @click="selectdata(1,$store.state.name.currencyname)">{{$store.state.name.currencyname}}</span>
                         <span :class="{active:typedata.type==1&&typedata.currency=='BTC'}" @click="selectdata(1,'BTC')">BTC</span>
@@ -13,7 +13,7 @@
                 </div>
                 <span class="line"></span>
                 <div class="sell">
-                    <p>出售</p>
+                    <p>我要卖</p>
                     <section>
                         <span :class="{active:typedata.type==2&&typedata.currency==$store.state.name.currencyname}" @click="selectdata(2,$store.state.name.currencyname)">{{$store.state.name.currencyname}}</span>
                         <span :class="{active:typedata.type==2&&typedata.currency=='BTC'}" @click="selectdata(2,'BTC')">BTC</span>

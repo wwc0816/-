@@ -24,10 +24,11 @@
                 </ul>
             </div>
             <div class="right">
-                <div class="Kline">
-                    <!-- {{Base}}/{{currencyname}} -->
+                <!--tradingView 插件-->
+                <!--<div class="Kline">
+                    &lt;!&ndash; {{Base}}/{{currencyname}} &ndash;&gt;
                     <chat :symbol='Base+"/"+currencyname'></chat>
-                </div>
+                </div>-->
                 <div class="box">
                     <div class="itembox deal">
                         <p class="title"><span class="tabs" :class="type == 1?'active':''" @click="type = 1">限价交易</span><span class="tabs" :class="type == 2?'active':''" @click="type = 2">市场交易</span></p>
@@ -210,7 +211,7 @@
 </template>
 
 <script>
-import chat from "./chat.vue";
+/*import chat from "./chat.vue";*/
 export default {
   data() {
     return {
@@ -256,9 +257,9 @@ export default {
       orderlist: {}
     };
   },
-  components: {
+ /* components: {
     chat
-  },
+  },*/
   created() {
     // this.getDescriptiondata();
     this.getMarketdicdata();
@@ -276,11 +277,11 @@ export default {
     //处理非数字
     console.log(num)
     if(isNaN(num)){return num};
-    
+
     //处理不需要转换的数字
     var str = ''+num;
     if(!/e/i.test(str)){return num;};
-    
+
     return (num).toFixed(18).replace(/\.?0+$/, "");
 },
     pageTo(path) {
@@ -471,15 +472,16 @@ $bgcolor: #212336;
 $bgcolor2: #191b2a;
 .exchangeDiv {
   display: flex;
-  width: 1880px;
+  width: 1200px;/**/
   margin: auto;
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 20px;
   .left {
-    width: 403px;
+    width: 258px;
     background: $bgcolor2;
     padding-bottom: 40px;
+      margin-top: 10px;/*插件要是添加之后在给这个属性去掉*/
     p {
       font-size: 18px;
       padding: 24px;
@@ -542,12 +544,12 @@ $bgcolor2: #191b2a;
     }
   }
   .right {
-    width: 1462px;
-    .Kline {
+    width: 935px;
+    /*.Kline {
       width: 100%;
       height: 400px;
       background: $bgcolor2;
-    }
+    }*/
     .box {
       display: flex;
       justify-content: space-between;
@@ -555,7 +557,7 @@ $bgcolor2: #191b2a;
       .itembox {
         background: $bgcolor2;
         .title {
-          height: 65px;
+          height: 40px;
           display: flex;
           justify-content: flex-start;
           align-items: center;
@@ -570,8 +572,8 @@ $bgcolor2: #191b2a;
             padding-left: 10px;
           }
           .tabs {
-            height: 64px;
-            line-height: 65px;
+            height: 40px;
+            line-height: 40px;
             border-bottom: 1px solid transparent;
             margin: 0 17px;
             cursor: pointer;
@@ -583,17 +585,21 @@ $bgcolor2: #191b2a;
         }
       }
       .deal {
-        width: 974px;
+        width: 623px;
         .dealblock {
           // height: 300px;
           padding-bottom: 26px;
           display: flex;
           justify-content: space-around;
           .dealitem {
-            width: 454px;
+            width: 312px;
+          margin: 0 25px;
             .dealitemtitle {
-              padding: 16px 0;
+              padding: 14px 0;
               border-bottom: 1px solid #2c3753;
+               /* margin-left: 25px;*/
+
+
               a {
                 color: $colorbule;
               }
@@ -601,6 +607,7 @@ $bgcolor2: #191b2a;
             .dealeditbox {
               padding: 20px 0;
               color: $colorgray;
+                /*margin-left: 25px;*/
               .label {
                 padding-bottom: 8px;
                 display: block;
@@ -632,6 +639,7 @@ $bgcolor2: #191b2a;
             }
             .amount {
               padding: 30px 0;
+                /*margin-left: 25px;*/
             }
             .dealbtn {
               width: 100%;
@@ -646,7 +654,7 @@ $bgcolor2: #191b2a;
         }
       }
       .price {
-        width: 480px;
+        width: 308px;
         .pricelists {
           height: 300px;
         }
@@ -658,19 +666,19 @@ $bgcolor2: #191b2a;
             }
             span:nth-child(2),
             span:nth-child(3) {
-              width: 180px;
+              width: 100px;
             }
           }
         }
       }
       .deepness {
-        width: 845px;
+        width: 542px;
         .deepnessline {
           height: 300px;
         }
       }
       .time {
-        width: 608px;
+        width: 389px;
         .timelists {
           height: 300px;
           overflow: auto;
@@ -684,7 +692,7 @@ $bgcolor2: #191b2a;
           }
           span:nth-child(3),
           span:nth-child(4) {
-            width: 150px;
+            width: 90px;
           }
         }
       }
@@ -738,7 +746,7 @@ $bgcolor2: #191b2a;
       }
     }
     .coinsexchangelist {
-      padding: 0 40px;
+      padding: 0 23px;
       font-size: 12px;
       .exlist_head {
         display: flex;
