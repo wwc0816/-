@@ -2,241 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="018f986c-8577-437b-8cc0-c5fab39e940c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/adbg.7042307.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/img/downloadbg.16e29ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/111_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/coinsUp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/coinsUpotc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/iphone1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/ofvc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/椭圆2拷贝.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/立即申请成为保荐机构.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.a02a99c249334d959b07babd3ed0ffd4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/app.a02a99c249334d959b07babd3ed0ffd4.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/exchange.2e38c5d935a940249f2f35f29a05434e.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/css/exchange.2e38c5d935a940249f2f35f29a05434e.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.faa45d1eaff1ca8e63ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/app.faa45d1eaff1ca8e63ca.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/exchange.e6442c7e782ee8463b41.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/static/js/exchange.e6442c7e782ee8463b41.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/dist/dom7.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/dist/dom7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/dist/dom7.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/dist/dom7.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/dist/dom7.modular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/dist/dom7.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/$.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/dom7-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/dom7.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/dom7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/dom7.modular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/event-shortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/dom7/src/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/dist/ssr-window.esm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/dist/ssr-window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/dist/ssr-window.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/dist/ssr-window.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/src/document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/src/ssr-window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ssr-window/src/window.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/.eslintrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/dist/css/swiper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/dist/css/swiper.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/dist/js/swiper.esm.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/dist/js/swiper.esm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/dist/js/swiper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/dist/js/swiper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/dist/js/swiper.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/scripts/banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/scripts/build-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/scripts/build-js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/scripts/build-less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/scripts/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/a11y/a11y.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/a11y/a11y.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/autoplay/autoplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/controller/controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/controller/controller.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/breakpoints/getBreakpoint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/breakpoints/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/breakpoints/setBreakpoint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/check-overflow/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/classes/addClasses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/classes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/classes/removeClasses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/core-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/defaults.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onClick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onResize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onTouchEnd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onTouchMove.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/events/onTouchStart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/grab-cursor/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/grab-cursor/setGrabCursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/grab-cursor/unsetGrabCursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/images/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/images/loadImage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/images/preloadImages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/loop/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/loop/loopCreate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/loop/loopDestroy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/loop/loopFix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/addSlide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/appendSlide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/prependSlide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/removeAllSlides.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/manipulation/removeSlide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideNext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slidePrev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideReset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideTo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideToClickedSlide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideToClosest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/slide/slideToLoop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/transition/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/transition/setTransition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/transition/transitionEnd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/transition/transitionStart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/getTranslate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/maxTranslate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/minTranslate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/translate/setTranslate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateActiveIndex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateAutoHeight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateClickedSlide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateProgress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSlides.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSlidesClasses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSlidesOffset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/core/update/updateSlidesProgress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-coverflow/effect-coverflow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-coverflow/effect-coverflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-cube/effect-cube.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-cube/effect-cube.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-fade/effect-fade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-fade/effect-fade.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-flip/effect-flip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/effect-flip/effect-flip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/hash-navigation/hash-navigation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/history/history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/keyboard/keyboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/lazy/lazy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/lazy/lazy.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/mousewheel/mousewheel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/navigation/navigation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/navigation/navigation.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/pagination/pagination.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/pagination/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/parallax/parallax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/scrollbar/scrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/scrollbar/scrollbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/thumbs/thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/thumbs/thumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/virtual/virtual.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/zoom/zoom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/components/zoom/zoom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/browser/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/device/device.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/observer/observer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/resize/resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/resize/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/modules/support/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/swiper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/swiper.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/browser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/device.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/swiper/src/utils/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/dist/ssr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/dist/vue-awesome-swiper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/dist/vue-awesome-swiper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/dist/vue-awesome-swiper.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/slide.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/ssr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/swiper.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/merchant/sponsorApply.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/order/swiper.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/property/sponsorAccount.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/property/sponsorRecord.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/sponsor.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.d8cc3885519f0ad7141bf82b0c621e8e.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/app.d8cc3885519f0ad7141bf82b0c621e8e.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/exchange.1a7a169e5b4260d48f4ab81ae22c24a1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/css/exchange.1a7a169e5b4260d48f4ab81ae22c24a1.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.96bb8fe0dce82a347e7c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/app.96bb8fe0dce82a347e7c.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/exchange.8bb62c01b1a2cdffb245.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/js/exchange.8bb62c01b1a2cdffb245.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/images/iphone.png" afterPath="$PROJECT_DIR$/src/assets/images/iphone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/manifest.0c1cd46d93b12dcd0191.js.map" afterPath="$PROJECT_DIR$/dist/static/js/manifest.0c1cd46d93b12dcd0191.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/property.scss" afterPath="$PROJECT_DIR$/src/assets/scss/property.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/applyAd.vue" afterPath="$PROJECT_DIR$/src/components/applyAd.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/business.vue" afterPath="$PROJECT_DIR$/src/components/business.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/coinExchange/bottomFooter.vue" afterPath="$PROJECT_DIR$/src/components/coinExchange/bottomFooter.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/coinExchange/chat.vue" afterPath="$PROJECT_DIR$/src/components/coinExchange/chat.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/coinExchange/exchange.vue" afterPath="$PROJECT_DIR$/src/components/coinExchange/exchange.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/coinExchange/header.vue" afterPath="$PROJECT_DIR$/src/components/coinExchange/header.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/download.vue" afterPath="$PROJECT_DIR$/src/components/download.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header.vue" afterPath="$PROJECT_DIR$/src/components/header.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/home.vue" afterPath="$PROJECT_DIR$/src/components/home.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/merchant/merchantApply.vue" afterPath="$PROJECT_DIR$/src/components/merchant/merchantApply.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order/atPresent.vue" afterPath="$PROJECT_DIR$/src/components/order/atPresent.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/order/history.vue" afterPath="$PROJECT_DIR$/src/components/order/history.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/personal/personal.vue" afterPath="$PROJECT_DIR$/src/components/personal/personal.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/property/legalAccount.vue" afterPath="$PROJECT_DIR$/src/components/property/legalAccount.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/property/property.vue" afterPath="$PROJECT_DIR$/src/components/property/property.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/property/record.vue" afterPath="$PROJECT_DIR$/src/components/property/record.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/LICENSE" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/README.md" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/index.js" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/slide.vue" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/slide.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/swiper.vue" afterPath="$PROJECT_DIR$/node_modules/vue-awesome-swiper/src/swiper.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -257,7 +28,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="1802">
               <caret line="106" column="43" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="43" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -414,8 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -728,6 +497,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -861,12 +632,21 @@
       <workItem from="1542088512135" duration="5131000" />
       <workItem from="1542098031916" duration="22602000" />
       <workItem from="1542248264382" duration="49000" />
-      <workItem from="1542248326476" duration="7280000" />
+      <workItem from="1542248326476" duration="7739000" />
+      <workItem from="1542263969080" duration="3000" />
     </task>
+    <task id="LOCAL-00001" summary="zhongwan">
+      <created>1542263960777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542263960777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198270000" />
+    <option name="totallyTimeSpent" value="198732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="228" y="23" width="1187" height="806" extended-state="0" />
@@ -877,19 +657,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15826331" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21650212" sideWeight="0.08379121" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15826331" sideWeight="0.49722" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -899,7 +679,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="zhongwan" />
+    <option name="LAST_COMMIT_MESSAGE" value="zhongwan" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1254,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-218">
           <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,7 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="1802">
           <caret line="106" column="43" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="43" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
