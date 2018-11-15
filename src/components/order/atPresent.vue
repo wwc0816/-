@@ -18,9 +18,9 @@
                 <ul class="list">
                     <li>
                         <div class="listItem" v-for="(item, index) in listdata" :key="index">
-                            <span>{{$common.timeformat(item.CreationTimeStamp)}}</span>
+                            <span>{{$common.timeformat(item.CreationTimeStamp)}}</span><!--JavaScript时间戳（毫秒数）-->
                             <span>币币交易</span>
-                            <span class="colorbule">{{item.TokenPair}}</span>
+                            <span class="colorbule">{{item.TokenPair}}</span><!--交易品种-->
                             <span :class="item.ExchangeType == 1?'colorgreen':'colorred'">{{item.ExchangeType == 1?'买入':'卖出'}}</span>
                             <span>{{item.QuotedPrice?item.QuotedPrice.toFixed(8):'市价'}} {{item.Currency}}</span>
                             <span>{{item.Amount.toFixed(8)}} {{item.Base}}</span>
@@ -51,7 +51,7 @@ export default {
     return {
       totalPage: 0,
       nodata: false,
-      apiurl: this.$common.coinspath + "/v1/commission/current",
+      apiurl: this.$common.coinspath + "/v1/commission/current",/*li里面的循环数据接口*/
       detelurl: this.$common.coinspath + "/v1/commission/cancel/",
       listdata: [],
       data: {
@@ -76,15 +76,18 @@ export default {
       this.getlist();
     },
     getlist() {
-      this.$http
+      this.$axios
         .get(this.apiurl, {
           params: this.$common.sort(this.data)
+
         })
         .then(res => {
           if (res.data.status == 1) {
             this.totalPage = res.data.data.pageTotalCount;
-            this.listdata = res.data.data;
-            if (this.data.pageIndex == 1 && res.data.data.length == 0) {
+              console.log(this.totalPage);
+              this.listdata = res.data.data;
+              console.log(this.listdata);
+              if (this.data.pageIndex == 1 && res.data.data.length == 0) {
               this.nodata = true;
             }
           } else {
@@ -93,13 +96,14 @@ export default {
         });
     },
     detel(id) {
-      this.$http.get(this.detelurl + id).then(res => {
+      this.$axios.get(this.detelurl + id).then(res => {
         if (res.data.status == 1) {
           this.$Message.success(res.data.message);
           this.getlist();
         } else {
           this.$Message.error(res.data.message);
         }
+
       });
     }
   }

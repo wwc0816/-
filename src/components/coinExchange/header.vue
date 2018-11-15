@@ -1,4 +1,6 @@
+<!--没用的header-->
 <template>
+
     <div class="header">
         <img src="../../assets/images/logo.png" alt="" class="logo" @click="pageTo('index')" style="cursor:pointer;">
         <ul class="menuUl">
@@ -67,7 +69,7 @@
     </div>
 </template>
 
-<script>
+<!--<script>
 export default {
   data() {
     return {
@@ -91,7 +93,7 @@ export default {
     },
   }
 };
-</script>
+</script>-->
 
 <style lang="scss" scoped>
 .header {

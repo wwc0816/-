@@ -64,7 +64,7 @@ export default {
       this.getrecordlist(1);
     },
     getdatalist() {
-      this.$http
+      this.$axios
         .get(this.apiurl, {
           params: this.$common.sort({
             userId: this.$store.state.userstatus.userId
@@ -82,7 +82,7 @@ export default {
     },
     getrecordlist(page) {
       this.data.pageIndex = page;
-      this.$http
+      this.$axios
         .get(this.recordapi, {
           params: this.$common.sort(this.data)
         })

@@ -57,7 +57,7 @@ export default {
       this.$router.push({ name: path });
     },
     getAssetList() {
-      this.$http
+      this.$axios
         .get(this.getWeBankListapi, {
           params: this.$common.sort({
             userId: this.$store.state.userstatus.userId
@@ -73,7 +73,7 @@ export default {
         });
     },
     gettotal() {
-      this.$http
+      this.$axios
         .get(this.getAssetTotalapi, {
           params: this.$common.sort({
             userId: this.$store.state.userstatus.userId
@@ -81,8 +81,10 @@ export default {
         })
         .then(res => {
           if (res.data.status == 1) {
-              console.log(res);
+
               this.total = res.data.data;
+              console.log(this.total);
+
           } else {
             this.$Message.error(res.data.message);
           }

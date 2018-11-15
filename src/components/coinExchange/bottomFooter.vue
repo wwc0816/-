@@ -1,3 +1,4 @@
+<!--没用的bootomFooter-->
 <template>
     <div class="footer wrapDiv">
         <div class="footerContent">
@@ -46,16 +47,16 @@
 </template>
 
 <script>
-export default {
+/*export default {
   methods:{
     pageTo(path){
       location.href = this.$common.host+'/#/'+path
     }
   }
-};
+};*/
 </script>
 
-<style lang="scss" scoped>
+<!--<style lang="scss" scoped>
 .footer {
   background: #090724;
   padding-top: 0;
@@ -124,5 +125,5 @@ export default {
     }
   }
 }
-</style>
+</style>-->
 

@@ -25,7 +25,7 @@
             </div>
             <div class="right">
                 <!--tradingView 插件-->
-                <!--<div class="Kline">
+               <!-- <div class="Kline">
                     &lt;!&ndash; {{Base}}/{{currencyname}} &ndash;&gt;
                     <chat :symbol='Base+"/"+currencyname'></chat>
                 </div>-->
@@ -141,7 +141,13 @@
                 <div class="box">
                     <div class="itembox deepness">
                         <p class="title"><i class="iconboult icon_unfold"></i><span class="spantitle">深度图</span></p>
-                        <div class="deepnessline"></div>
+                        <div class="deepnessline">
+                            <!--tradingView 插件-->
+                             <!--<div class="Kline">
+
+                                 <chat :symbol='Base+"/"+currencyname'></chat>
+                             </div>-->
+                        </div>
                     </div>
                     <div class="itembox time">
                         <p class="title"><i class="iconboult icon_unfold"></i><span class="spantitle">实时成交</span></p>
@@ -407,6 +413,7 @@ export default {
             this.handicapdata.buy = res.data.data.Buying;
              /* this.handicapdata.buy.reverse((a,b)=>a.res.data.data.Buying-b.res.data.data.Buying)*/
               this.handicapdata.sell = res.data.data.Selling;
+              console.log(this.handicapdata.sell);
               this.handicapdata.sell.reverse((a,b)=>a.res.data.data.Selling-b.res.data.data.Selling)
               this.handicapdata.cnyprice = res.data.data.CurrentTranCnyPrice;
             this.handicapdata.price = res.data.data.CurrentTranPrice;
@@ -547,7 +554,7 @@ $bgcolor2: #191b2a;
     width: 935px;
     /*.Kline {
       width: 100%;
-      height: 400px;
+      height: 300px;
       background: $bgcolor2;
     }*/
     .box {
@@ -676,6 +683,13 @@ $bgcolor2: #191b2a;
         .deepnessline {
           height: 300px;
         }
+     .Kline {
+    width: 100%;
+    height: 300px;
+    background: $bgcolor2;
+      }
+
+
       }
       .time {
         width: 389px;

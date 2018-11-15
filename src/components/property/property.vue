@@ -7,7 +7,7 @@
             <div class="propertymain">
               <div class="propertymainleft">
                 <ul>
-                  <li v-for="(item, index) in lists" :key="index" @click="pageTo(item.path,index)" :class='{active:active == index}'>{{item.name}}</li>
+                  <li v-for="(item, index) in lists" :key="index" @click="pageTo(item.path,index)" :class='{active:active == index} '>{{item.name}}</li>
                 </ul>
               </div>
               <div class="propertymainright">
@@ -56,13 +56,18 @@ export default {
         {
           name: "交易账户",
           path: "dealAccount"
-        },
+        },{
+              name: "商家账户",
+              path: "merchantAccount",
+              fontcolor:"color:'#b4b4b4',font-size:'14px'"
+
+          },{
+              name:"保荐账户",
+              path:"sponsorAccount"
+          },
         {
           name: "法币账户",
           path: "legalAccount"
-        },{
-          name: "商家账户",
-          path: "merchantAccount"
         }
       ],
       coinurl: this.$common.coinspath + "/v1/otc/balance/coin",
@@ -80,10 +85,14 @@ export default {
   created() {
     if (this.$route.path == "/property/dealAccount") {
       this.active = 0;
-    } else if (this.$route.path == "/property/legalAccount") {
-      this.active = 1;
-    } else if (this.$route.path == "/property/merchantAccount") {
-      this.active = 2;
+    }else if (this.$route.path == "/property/merchantAccount") {
+        this.active = 1;
+    }
+    else if(this.$route.path=="/property/sponsorAccount"){
+        this.active=2
+    }
+    else if (this.$route.path == "/property/legalAccount") {
+      this.active = 3;
     }
   },
   methods: {
@@ -91,6 +100,7 @@ export default {
       this.active = index;
       this.$router.push({ name: path });
     },
+
     withdrawOk() {
       this.withdrawData.cointype = this.$store.state.status.cointype;
       var url = "";

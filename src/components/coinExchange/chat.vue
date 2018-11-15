@@ -33,6 +33,8 @@ export default {
 					container_id: "tv_chart_container",
           /*接口地址 调用数据*/
 					datafeed: new Datafeeds.UDFCompatibleDatafeed(window.location.protocol + "//api.exchange-data.coinsup.top/v1/trading-data"),//找接口   时间字段在哪里返回的
+          /*//api.exchange-data.coinsup.top/v1/trading-data   原来的代码*/
+          /*https://api.exchange-data.coinsup.top/v1/trading-data/quoted-depth?symbol=BTC/UST*/
                  /*这是什么路径*/
 					library_path: "../../../static/charting_library/",
                    /*中文*/
@@ -112,6 +114,6 @@ export default {
 </script>
 <style>
 iframe {
-  height: 400px !important;
+  height: 300px!important;
 }
 </style>

@@ -120,7 +120,6 @@
                     </ul>
                     <p class="addpayway" @click="openAdd" v-if="canaddpayway">添加支付方式</p>
                 </div>
-                
             </div>
         </div>
         <!-- 实名认证 -->
@@ -152,63 +151,63 @@
             @on-ok="addPayWayOk"
             @on-cancel="addPayWayCancel"
             okText="完成设置">
-            <p class="confirmTitle">添加支付方式</p>
-            <Form :model="addPayWayData" label-position="top">
-                <FormItem label="支付方式">
-                    <Select v-model="addPayWayData.payway">
-                        <Option value="1" :disabled="$store.state.userstatus.isSetBank==1">银行卡</Option>
-                        <Option value="2" :disabled="$store.state.userstatus.isSetWeixin==1">微信</Option>
-                        <Option value="3" :disabled="$store.state.userstatus.isSetAlipay==1">支付宝</Option>
-                    </Select>
+        <p class="confirmTitle">添加支付方式</p>
+        <Form :model="addPayWayData" label-position="top">
+            <FormItem label="支付方式">
+                <Select v-model="addPayWayData.payway">
+                    <Option value="1" :disabled="$store.state.userstatus.isSetBank==1">银行卡</Option>
+                    <Option value="2" :disabled="$store.state.userstatus.isSetWeixin==1">微信</Option>
+                    <Option value="3" :disabled="$store.state.userstatus.isSetAlipay==1">支付宝</Option>
+                </Select>
+            </FormItem>
+
+            <section v-if="addPayWayData.payway == 1">
+                <FormItem label="姓名">
+                    <i-input v-model="addPayWayBank.name"></i-input>
                 </FormItem>
-                
-                <section v-if="addPayWayData.payway == 1">
-                    <FormItem label="姓名">
-                        <i-input v-model="addPayWayBank.name"></i-input>
-                    </FormItem>
-                    <FormItem label="开户银行">
-                        <i-input v-model="addPayWayBank.bankName"></i-input>
-                    </FormItem>
-                    <FormItem label="开户支行（选填）">
-                        <i-input v-model="addPayWayBank.bankBranch"></i-input>
-                    </FormItem>
-                    <FormItem label="银行卡账号">
-                        <i-input v-model="addPayWayBank.cardNumber"></i-input>
-                    </FormItem>
-                    <FormItem label="资金密码">
-                        <i-input v-model="addPayWayBank.payPassword"></i-input>
-                    </FormItem>
-                </section>
-                <section v-if="addPayWayData.payway == 2">
-                    <FormItem label="姓名">
-                        <i-input v-model="addPayWayWeixin.name"></i-input>
-                    </FormItem>
-                    <FormItem label="微信账号">
-                        <i-input v-model="addPayWayWeixin.account"></i-input>
-                    </FormItem>
-                    <FormItem label="二维码">
-                        <upload :uploaddata="uploaddata"></upload>
-                    </FormItem>
-                    <FormItem label="资金密码">
-                        <i-input v-model="addPayWayWeixin.payPassword"></i-input>
-                    </FormItem>
-                </section>
-                <section v-if="addPayWayData.payway == 3">
-                    <FormItem label="姓名">
-                        <i-input v-model="addPayWayAlipay.name"></i-input>
-                    </FormItem>
-                    <FormItem label="支付宝账号">
-                        <i-input v-model="addPayWayAlipay.account"></i-input>
-                    </FormItem>
-                    <FormItem label="二维码">
-                        <upload :uploaddata="uploaddata"></upload>
-                    </FormItem>
-                    <FormItem label="资金密码">
-                        <i-input v-model="addPayWayAlipay.payPassword"></i-input>
-                    </FormItem>
-                </section>
-            </Form>
-        </Modal>
+                <FormItem label="开户银行">
+                    <i-input v-model="addPayWayBank.bankName"></i-input>
+                </FormItem>
+                <FormItem label="开户支行（选填）">
+                    <i-input v-model="addPayWayBank.bankBranch"></i-input>
+                </FormItem>
+                <FormItem label="银行卡账号">
+                    <i-input v-model="addPayWayBank.cardNumber"></i-input>
+                </FormItem>
+                <FormItem label="资金密码">
+                    <i-input v-model="addPayWayBank.payPassword"></i-input>
+                </FormItem>
+            </section>
+            <section v-if="addPayWayData.payway == 2">
+                <FormItem label="姓名">
+                    <i-input v-model="addPayWayWeixin.name"></i-input>
+                </FormItem>
+                <FormItem label="微信账号">
+                    <i-input v-model="addPayWayWeixin.account"></i-input>
+                </FormItem>
+                <FormItem label="二维码">
+                    <upload :uploaddata="uploaddata"></upload>
+                </FormItem>
+                <FormItem label="资金密码">
+                    <i-input v-model="addPayWayWeixin.payPassword"></i-input>
+                </FormItem>
+            </section>
+            <section v-if="addPayWayData.payway == 3">
+                <FormItem label="姓名">
+                    <i-input v-model="addPayWayAlipay.name"></i-input>
+                </FormItem>
+                <FormItem label="支付宝账号">
+                    <i-input v-model="addPayWayAlipay.account"></i-input>
+                </FormItem>
+                <FormItem label="二维码">
+                    <upload :uploaddata="uploaddata"></upload>
+                </FormItem>
+                <FormItem label="资金密码">
+                    <i-input v-model="addPayWayAlipay.payPassword"></i-input>
+                </FormItem>
+            </section>
+        </Form>
+    </Modal>
         <!-- 修改银行卡支付方式 -->
         <Modal
             v-model="updataPayWayBankModal"
@@ -371,7 +370,7 @@ export default {
       smscodeBtnText: "发送验证码",
       disabled: true,
       wait: 90,
-      realNameUrl: this.$common.path + "/user/realauth",
+      realNameUrl: this.$common.path + "/user/realauth",/*实名认证信息*/
       realNameModal: false,
       realNameData: {
         name: "",
@@ -543,6 +542,7 @@ export default {
           });
       }
     },
+      /*实名认证*/
     realNameOk() {
       this.$http
         .post(this.realNameUrl, this.$common.sort(this.realNameData))
@@ -565,6 +565,7 @@ export default {
       this.$store.state.qiniu.uploadUrl = "";
       this.addPayWayModal = true;
     },
+
     addbank() {
       this.$http
         .post(this.addPayWayBankapi, this.$common.sort(this.addPayWayBank))
@@ -578,8 +579,10 @@ export default {
           }
         });
     },
+      /*添加微信*/
     addweixin() {
       this.addPayWayWeixin.codePath = this.$store.state.qiniu.uploadUrl;
+
       if (this.addPayWayWeixin.codePath == "") {
         this.$Message.error("请上传图片");
         return false;
@@ -596,6 +599,7 @@ export default {
           }
         });
     },
+      /*添加支付宝*/
     addalipay() {
       this.addPayWayAlipay.codePath = this.$store.state.qiniu.uploadUrl;
       if (this.addPayWayAlipay.codePath == "") {
@@ -614,6 +618,7 @@ export default {
           }
         });
     },
+
     addPayWayOk() {
       if (this.addPayWayData.payway == "1") {
         this.addbank();

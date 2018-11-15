@@ -6,6 +6,7 @@
             <li><a @click="pageTo('business')">法币交易</a></li>
             <li><a @click="pageTo('myAd')">发布广告</a></li>
             <li><a @click="pageTo('merchantApply')">聚合支付</a></li>
+            <li><a @click="pageTo('sponsor')">保荐机构</a></li>
             <li><a @click="pageTo('download')">客户端下载</a></li>
         </ul>
         <!-- <section>

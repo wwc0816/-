@@ -83,7 +83,7 @@ export default {
   },
   methods: {
     gethistoryList() {
-      this.$http
+      this.$axios
         .get(this.historyapi, {
           params: this.$common.sort(this.data)
         })
@@ -109,7 +109,7 @@ export default {
         this.detaildata = {};
       } else {
         this.showid = id;
-        this.$http
+        this.$axios
           .get(this.recordapi, {
             params: this.$common.sort({
               userId: this.$store.state.userstatus.userId,

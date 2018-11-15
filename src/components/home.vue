@@ -47,8 +47,8 @@
                 <p><img src="../assets/images/logo.png"> 手机客户端</p>
                 <span>随时提醒 快速交易</span>
                 <section>
-                    <a target="_blank" href="http://cdn.bxgsft.cn/appp.php/4549"></a>
-                    <a target="_blank" href="http://cdn.bxgsft.cn/appp.php/3266"></a>
+                    <a target="_blank" href="http://m.coinsup.top/"></a>
+                    <a target="_blank" href="http://m.coinsup.top/"></a>
                 </section>
             </div>
         </div>
@@ -236,7 +236,7 @@ export default {
           background-image: url(../assets/images/Android.png);
         }
         a:nth-child(2) {
-          background-image: url(../assets/images/iphone.png);
+          background-image: url(../assets/images/iphone1.png);
         }
       }
     }

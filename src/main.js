@@ -10,7 +10,9 @@ import common from './assets/js/common'
 import 'iview/dist/styles/iview.css'
 import store from './store'
 import axios from 'axios'
-
+import VueAwesomeSwiper from 'vue-awesome-swiper';
+Vue.use(VueAwesomeSwiper);
+import "./../node_modules/swiper/dist/css/swiper.css"
 Vue.config.productionTip = false
 Vue.use(iView)
 Vue.use(VueResource)

@@ -6,6 +6,7 @@ import login from '@/components/login'
 import register from '@/components/register'
 import forget from '@/components/forget'
 import business from '@/components/business'
+import sponsor from '@/components/sponsor'
 import businessDetail from '@/components/businessDetail'
 import order from '@/components/order/order'
 import history from '@/components/order/history'
@@ -23,9 +24,12 @@ import policy from '@/components/policy'
 import dealAccount from '@/components/property/dealAccount'
 import legalAccount from '@/components/property/legalAccount'
 import merchantAccount from '@/components/property/merchantAccount'
+import sponsorAccount from '@/components/property/sponsorAccount'
 import record from '@/components/property/record'
+import sponsorRecord from '@/components/property/sponsorRecord'
 import propertyDetail from '@/components/property/propertyDetail'
 import merchantApply from '@/components/merchant/merchantApply'
+import sponsorApply from'@/components/merchant/sponsorApply'
 import merchant from '@/components/merchant/merchant'
 import merchantCoins from '@/components/merchant/coins'
 import merchantUserList from '@/components/merchant/userList'
@@ -77,6 +81,12 @@ export default new Router({
           name: 'businessDetail',
           component: businessDetail
         },
+          {
+            path:'/sponsor',
+              name:'sponsor',
+              component:sponsor
+
+          },
         {
           path: '/order',
           name: 'order',
@@ -102,14 +112,23 @@ export default new Router({
               path: '/property/merchantAccount',
               name: 'merchantAccount',
               component: merchantAccount
-            }
+            },
+              {
+                path:'/property/sponsorAccount',
+                  name:'sponsorAccount',
+                  component:sponsorAccount
+              }
           ]
         },
         {
           path: '/record',
           name: 'record',
           component: record
-        },
+        },{
+        path:'/sponsorRecord',
+              name:'sponsorRecord',
+              component:sponsorRecord
+          },
         {
           path: 'propertyDetail',
           name: 'propertyDetail',
@@ -175,6 +194,11 @@ export default new Router({
           name: 'merchantApply',
           component: merchantApply
         },
+          {
+            path:'/sponsorApply',
+              name:'sponsorApply',
+              component:sponsorApply
+          },
         {
           path: '/merchant',
           name: 'merchant',

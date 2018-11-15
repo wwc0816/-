@@ -62,12 +62,15 @@ export default {
         productName: "",
         rechargeNoticeUrl: ""
       },
-      applyapi: this.$common.coinspath + "/v1/user/merchant/apply",
+      applyapi: this.$common.coinspath + "/v1/user/merchant/apply",/*产品姓名  产品说明  接口*//*姓名 手机号   接口*/
+
       stateapi:
         this.$common.coinspath +
         "/v1/user/merchant/info/" +
-        this.$store.state.userstatus.userId
+        this.$store.state.userstatus.userId,
     };
+
+
   },
   created() {
      if (!this.$store.state.userstatus.userId) {
@@ -75,13 +78,18 @@ export default {
     }else{
       this.getstate();
     }
+      console.log(this.stateapi);
+      console.log(this.applyapi);
   },
   methods: {
     getstate() {
-      this.$axios.get(this.stateapi).then(res => {
-        if (res.data.status == 1) {
+      this.$axios.post(this.stateapi/*this.$common.sort(this.applydata)*/)
+          .then(res => {
+          if (res.data.status == 1) {
           this.statedata = res.data.data;
-          if(this.statedata.State == 1){
+              console.log(this.statedata);
+
+            if(this.statedata.State == 1){
             this.$router.push({ name: 'merchantAccount' });
           }
         } else if(res.data.status == 0){
@@ -90,9 +98,10 @@ export default {
           this.$Message.error(res.data.message);
         }
       });
+        console.log(this.stateapi);
     },
     apply() {
-      this.$axios
+      this.$http
         .post(this.applyapi, this.$common.sort(this.applydata))
         .then(res => {
           if (res.data.status == 1) {
